@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>සම්බන්ධ වීමට - ශ්‍රී සම්බුද්ධ විහාරය</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-dharmachakra fa-2x"></i>
+                <div>
+                    <span>ශ්‍රී සම්බුද්ධ</span><br>
+                    <span style="font-size: 0.8em; color: var(--primary-color);">පිරිවෙණ</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">මුල් පිටුව</a></li>
+                <li><a href="about.html">අප ගැන</a></li>
+                <li><a href="gallery.html">පින්තූර</a></li>
+                <li><a href="contact.html" class="active">සම්බන්ධ වීමට</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero"
+        style="height: 40vh; background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1596720426673-e4e1577d6396?q=80&w=1920&auto=format&fit=crop');">
+        <div class="hero-content">
+            <h1>සම්බන්ධ වන්න</h1>
+            <p>ඔබගේ අදහස් සහ දායකත්වයන් අපට ඉතා වටී</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>අපගේ ලිපිනය</h3>
+                <p style="margin-bottom: 2rem;">පහත ලිපිනයෙන් හෝ දුරකථන අංක වලින් ඔබට අප හා සම්බන්ධ විය හැක.</p>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <i class="fas fa-map-marker-alt" style="color: var(--primary-color); width: 30px;"></i>
+                    <strong>ලිපිනය:</strong><br>
+                    ශ්‍රී සම්බුද්ධ විහාරය,<br>
+                    අංක 123, පන්සල පාර,<br>
+                    කොළඹ.
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <i class="fas fa-phone" style="color: var(--primary-color); width: 30px;"></i>
+                    <strong>දුරකථන:</strong><br>
+                    +94 11 234 5678<br>
+                    +94 77 123 4567
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <i class="fas fa-envelope" style="color: var(--primary-color); width: 30px;"></i>
+                    <strong>විද්‍යුත් තැපෑල:</strong><br>
+                    info@temple.lk
+                </div>
+
+                <div style="margin-top: 2rem;">
+                    <h4>අපව අනුගමනය කරන්න</h4>
+                    <div style="margin-top: 1rem; font-size: 1.5rem;">
+                        <a href="#" style="margin-right: 15px; color: #3b5998;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="margin-right: 15px; color: #d62976;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="color: #c4302b;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>පණිවිඩයක් එවන්න</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">නම</label>
+                        <input type="text" id="name" placeholder="ඔබගේ නම" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">විද්‍යුත් තැපෑල</label>
+                        <input type="email" id="email" placeholder="ඔබගේ විද්‍යුත් තැපෑල">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">දුරකථන අංකය</label>
+                        <input type="tel" id="phone" placeholder="ඔබගේ දුරකථන අංකය">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">පණිවිඩය</label>
+                        <textarea id="message" rows="5" placeholder="ඔබගේ පණිවිඩය මෙහි ලියන්න" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">යවන්න</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Placeholder -->
+    <section style="padding-top: 0;">
+        <div
+            style="width: 100%; height: 400px; background-color: #eee; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+            <p style="color: #888;">Google Map Placeholder</p>
+            <!-- In a real site, you would embed an iframe here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ශ්‍රී සම්බුද්ධ පිරිවෙණ</h3>
+                <p>ධර්මය, අධ්‍යාපනය සහ සංස්කෘතිය මුසු වූ පින්බිම.</p>
+            </div>
+            <div class="footer-section">
+                <h3>පිවිසෙන්න</h3>
+                <ul>
+                    <li><a href="index.html">මුල් පිටුව</a></li>
+                    <li><a href="about.html">අප ගැන</a></li>
+                    <li><a href="gallery.html">පින්තූර</a></li>
+                    <li><a href="contact.html">සම්බන්ධ වීමට</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>අමතන්න</h3>
+                <p><i class="fas fa-phone"></i> +94 11 234 5678</p>
+                <p><i class="fas fa-envelope"></i> info@temple.lk</p>
+                <p><i class="fas fa-map-marker-alt"></i> අංක 123, පන්සල පාර, කොළඹ.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ශ්‍රී සම්බුද්ධ විහාරය. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
